@@ -105,6 +105,35 @@ footer{border-top:1px solid var(--line);padding:32px 0;color:#858077}.foot{displ
 </div></div></section>
 
 <section class="cta"><div class="wrap"><div class="ctaBox reveal"><div><div class="eyebrow">This is only the beginning.</div><h2>Let's talk about what matters.</h2></div><a class="btn primary" href="https://youtube.com/@bundieful" target="_blank">Subscribe on YouTube →</a></div></div></section>
+<section class="dark" id="comments">
+  <div class="wrap">
+    <div class="sectionHead reveal">
+      <div>
+        <div class="eyebrow">Join the conversation</div>
+        <h2>What do you think?</h2>
+      </div>
+      <p>Share your thoughts, ask questions, and respond to others.</p>
+    </div>
+
+    <div class="reveal">
+      <script src="https://giscus.app/client.js"
+        data-repo="Bundieful/bundieful-podcast"
+        data-repo-id="R_kgDOTzpQ6g"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTzpQ6s4DECug"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+      </script>
+    </div>
+  </div>
+</section>
 </main>
 
 <footer><div class="wrap foot"><span>© 2026 Bundieful Podcast</span><span>Real Talk • Real Faith • Real Impact</span></div></footer>
