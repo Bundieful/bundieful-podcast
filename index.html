@@ -100,7 +100,112 @@ footer{border-top:1px solid var(--line);padding:32px 0;color:#858077}.foot{displ
 <div class="values"><div class="value"><b>Identity</b><span>Know who you are.</span></div><div class="value"><b>Faith</b><span>Know what anchors you.</span></div><div class="value"><b>Impact</b><span>Live your story well.</span></div></div></div>
 </div></section>
 
-<section class="dark" id="connect"><div class="wrap">
+<style>
+  .host-layout {
+    display: grid;
+    grid-template-columns: minmax(220px, 0.85fr) 1.15fr;
+    gap: 40px;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .host-photo {
+    width: 100%;
+    max-width: 420px;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: 14px;
+    display: block;
+  }
+
+  .host-bio p {
+    line-height: 1.8;
+    margin-bottom: 16px;
+  }
+
+  .host-bio .host-highlight {
+    color: #d6ad60;
+    font-weight: 600;
+  }
+
+  @media (max-width: 700px) {
+    .host-layout {
+      grid-template-columns: 1fr;
+    }
+    .host-photo {
+      max-width: 100%;
+    }
+  }
+</style>
+
+<section class="dark" id="about">
+  <div class="wrap">
+    <div class="sectionHead reveal">
+      <div>
+        <div class="eyebrow">The person behind Bundieful</div>
+        <h2>Meet Wonderful Bundi</h2>
+      </div>
+    </div>
+
+    <div class="host-layout reveal">
+      <div>
+        <img
+          src="bundieful-host-portrait.jpg"
+          alt="Wonderful Bundi, host of Bundieful Podcast"
+          class="host-photo"
+        >
+      </div>
+
+      <div class="host-bio">
+        <div class="eyebrow">Theology Student | Podcast Host</div>
+
+        <p>
+          My name is Wonderful Bundi, also known as Bundieful.
+          I am originally from Malawi and currently studying
+          Theology in Eswatini. I am passionate about faith,
+          identity, personal growth, leadership, and the questions
+          that shape how we understand ourselves and the world around us.
+        </p>
+
+        <p>
+          My journey has been one of learning, growing, asking
+          questions, and discovering more about who God has
+          created me to be. I am continually exploring how faith
+          connects with everyday life and how Scripture shapes
+          the way we live and understand our purpose.
+        </p>
+
+        <p>
+          Beyond my studies, I have a heart for young people
+          and meaningful conversations. I believe we need spaces
+          where we can ask honest questions, listen, learn, and grow.
+        </p>
+
+        <p>
+          That is part of what inspired me to start
+          <strong>Bundieful Podcast.</strong>
+        </p>
+
+        <p>
+          Through this platform, I hope to encourage people
+          to think deeply, grow in faith, understand who they
+          are in Christ, and live with purpose. I am not here
+          because I have figured everything out. I am also
+          learning, becoming, and growing along the way.
+        </p>
+
+        <p class="host-highlight">
+          My desire is simple: to use conversations, faith,
+          and the lessons of life to encourage a generation
+          to become who God created them to be.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <section class="dark" id="connect"><div class="wrap">
 <div class="sectionHead reveal"><div><div class="eyebrow">Join the community</div><h2>Stay connected.</h2></div><p>Follow Bundieful for new conversations, clips, reflections and updates.</p></div>
 <div class="connectGrid">
 <div class="social reveal"><strong>YouTube</strong><p>Full podcast conversations and video clips.</p><a href="https://youtube.com/@bundieful" target="_blank">Visit channel →</a></div>
